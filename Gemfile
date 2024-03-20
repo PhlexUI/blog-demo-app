@@ -70,3 +70,5 @@ group :test do
 end
 
 gem "phlex-rails", "~> 1.1"
+
+gem "phlex_ui", "~> 0.1.7"
