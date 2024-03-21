@@ -71,4 +71,5 @@ end
 
 gem "phlex-rails", "~> 1.1"
 
-gem "phlex_ui", "~> 0.1.7"
+gem "phlex_ui", path: "../phlex_ui"
+

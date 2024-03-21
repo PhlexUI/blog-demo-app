@@ -767,10 +767,8 @@ path-scurry@^1.10.1:
     lru-cache "^9.1.1 || ^10.0.0"
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
 
-phlex_ui@^0.1.4:
+phlex_ui@../phlex_ui_stimulus:
   version "0.1.4"
-  resolved "https://registry.yarnpkg.com/phlex_ui/-/phlex_ui-0.1.4.tgz#9fd87eab9846f060f7cbb68c1fd5f975426780ee"
-  integrity sha512-N/AyTuyk3O4CH45OLgZKubcc4BPdyEtxRtKVNWPLXvo9nWoSvf8WVrGMLKPzK9/8N49rYBHDr9ukF0hrJ56GPg==
   dependencies:
     "@hotwired/stimulus" "^3.2.2"
     chart.js "^4.4.1"

@@ -1,3 +1,12 @@
+PATH
+  remote: ../phlex_ui
+  specs:
+    phlex_ui (0.1.7)
+      phlex (~> 1.7)
+      rouge (~> 4.2.0)
+      ruby-next (~> 1.0)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -169,11 +178,6 @@ GEM
       phlex (~> 1.9)
       railties (>= 6.1, < 8)
       zeitwerk (~> 2.6)
-    phlex_ui (0.1.7)
-      phlex (~> 1.7)
-      rouge (~> 4.2.0)
-      ruby-next (~> 1.0)
-      zeitwerk (~> 2.6)
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
@@ -302,7 +306,7 @@ DEPENDENCIES
   jbuilder
   jsbundling-rails
   phlex-rails (~> 1.1)
-  phlex_ui (~> 0.1.7)
+  phlex_ui!
   puma (>= 5.0)
   rails (~> 7.1.3, >= 7.1.3.2)
   redis (>= 4.0.1)
